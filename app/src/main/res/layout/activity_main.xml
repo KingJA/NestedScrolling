@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pandora.kingja.com.nestedscrolling.NestedScrollLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_des"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#b290fa"
+        android:gravity="center"
+        android:text="介绍"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#fa9090"
+        android:gravity="center"
+        android:text="标题"/>
+
+    <pandora.kingja.com.nestedscrolling.NestedScrollChildView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#269c5d"
+        android:gravity="center"
+        android:lineSpacingExtra="15dp"
+        android:padding="10dp"
+        android:text="内容1\n内容2\n内容3\n内容4\n内容5\n内容6\n内容7\n内容8\n内容9\n内容1\n内容2\n内容3\n内容4\n内容5\n内容6\n内容7\n内容8\n内容9"/>
+</pandora.kingja.com.nestedscrolling.NestedScrollLayout>
